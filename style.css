@@ -1,0 +1,68 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+              url('image/japan.jpg') center/cover no-repeat;
+  height: 100vh;
+  animation: zoomHero 3s ease-in-out infinite alternate;
+}
+
+@keyframes zoomHero {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 110%;
+  }
+}
+
+
+/* Navbar */
+.navbar-brand {
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff4c4c !important;
+}
+
+/* Card & Image */
+.card {
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+/* Section Title */
+h2 {
+  color: #d63333;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
