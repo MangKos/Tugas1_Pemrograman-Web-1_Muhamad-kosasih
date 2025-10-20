@@ -1,9 +1,4 @@
-demo
 
-Uploading demo.mp4…
-
-
-Tampilannya
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/92656aca-d4c1-4969-a789-82afa3260881" />
 <img width="1366" height="556" alt="image" src="https://github.com/user-attachments/assets/4e7e5746-ee52-4b73-acd8-e16c1f0eb848" />
 <img width="1366" height="429" alt="image" src="https://github.com/user-attachments/assets/e40910a0-8338-4aaa-b2f6-0ccdb4254c0d" />
